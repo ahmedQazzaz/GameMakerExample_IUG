@@ -1,4 +1,6 @@
-/// @DnDAction : YoYo Games.Movement.Reverse
+/// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
-/// @DnDHash : 47BC63BA
-direction = (direction + 180) % 360;
+/// @DnDHash : 2705D287
+/// @DnDArgument : "code" "/// @description Execute Code$(13_10)move_bounce_all(true)"
+/// @description Execute Code
+move_bounce_all(true)

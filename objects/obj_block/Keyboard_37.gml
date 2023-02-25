@@ -1,11 +1,16 @@
-/// @DnDAction : YoYo Games.Movement.Set_Direction_Fixed
-/// @DnDVersion : 1.1
-/// @DnDHash : 21E48AD3
-/// @DnDArgument : "direction" "180"
-direction = 180;
-
-/// @DnDAction : YoYo Games.Movement.Set_Speed
+/// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 2921C7BD
-/// @DnDArgument : "speed" "3"
-speed = 3;
+/// @DnDHash : 2F4BD1CD
+/// @DnDArgument : "var" "x - 3"
+/// @DnDArgument : "op" "2"
+if(x - 3 > 0)
+{
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 6130E2F9
+	/// @DnDParent : 2F4BD1CD
+	/// @DnDArgument : "expr" "-3"
+	/// @DnDArgument : "expr_relative" "1"
+	/// @DnDArgument : "var" "x"
+	x += -3;
+}
