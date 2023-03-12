@@ -24,6 +24,6 @@ if(didStart == false)
 	/// @DnDVersion : 1
 	/// @DnDHash : 1D9A0A20
 	/// @DnDParent : 7A41CCE0
-	/// @DnDArgument : "speed" "2"
-	speed = 2;
+	/// @DnDArgument : "speed" "5"
+	speed = 5;
 }

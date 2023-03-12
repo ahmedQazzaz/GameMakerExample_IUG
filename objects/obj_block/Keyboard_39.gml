@@ -10,8 +10,8 @@ if(x + sprite_width + 3 < room_width)
 	/// @DnDVersion : 1
 	/// @DnDHash : 55FC4A5C
 	/// @DnDParent : 70392626
-	/// @DnDArgument : "expr" "3"
+	/// @DnDArgument : "expr" "6"
 	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "var" "x"
-	x += 3;
+	x += 6;
 }

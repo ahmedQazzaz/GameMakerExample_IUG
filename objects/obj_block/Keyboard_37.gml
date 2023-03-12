@@ -9,8 +9,8 @@ if(x - 3 > 0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 6130E2F9
 	/// @DnDParent : 2F4BD1CD
-	/// @DnDArgument : "expr" "-3"
+	/// @DnDArgument : "expr" "-6"
 	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "var" "x"
-	x += -3;
+	x += -6;
 }
