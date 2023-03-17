@@ -15,6 +15,7 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"Objects with Code","order":7,"path":"folders/Objects/Objects with Code.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"sample","order":4,"path":"sprites/sample/sample.yy",},
